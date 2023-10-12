@@ -1,4 +1,4 @@
-# Windows-Update-and-Options
+# Download the .bat File from GitHub
 
 Go to the GitHub repository where the .bat file is located. Click on the "Code" button, then select "Download ZIP."
 
