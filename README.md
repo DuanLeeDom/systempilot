@@ -24,10 +24,6 @@ Right-click on the ".bat Script" file and select "Run as administrator." If prom
 
 Allow for Windows Defender Prompt: While running the script, you might see a Windows Defender SmartScreen prompt warning you about running the .bat file. If this happens, click on "More info" to reveal additional options. Then click on "Run anyway" to execute the script. Wait for the Program to Update:
 
-The ".bat Script" script will execute and proceed to update your Windows system.
-
-Allow the script to run until it completes the update process. This may take some time, depending on the updates and program installations. Confirmation and Final Checks:
-
-Once the script finishes, it should display a message indicating that the update is complete, and the program will close after 30 seconds
+The ".bat Script" script will execute.
 
 Ensure that your system is functioning normally after the updates. You can check your installed programs and verify that the App Installer is updated.
