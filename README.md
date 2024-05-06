@@ -1,5 +1,7 @@
 # Download the Windows-Update-and-Options.bat File from GitHub
 
+![Captura de tela 2024-05-06 133303](https://github.com/DuanLeeDom/Windows-Update-and-Options/assets/116463153/2dc805de-e38f-40a2-a4a4-72556e678028)
+
 1. Go to your GitHub repository where the `Windows-Update-and-Options.bat` file is located.
 2. Click on the "Code" button, then select "Download ZIP" to acquire the repository as a ZIP file.
 
