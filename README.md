@@ -1,54 +1,53 @@
-# Download the Windows-Update-and-Options.bat File from GitHub
+# Script de Atualização e Limpeza do Windows (.BAT)
 
-![Captura de tela 2024-05-06 133303](https://github.com/DuanLeeDom/Windows-Update-and-Options/assets/116463153/2dc805de-e38f-40a2-a4a4-72556e678028)
+Este script em **Batch** foi desenvolvido para automatizar processos de manutenção e atualização no Windows.  
+Ele centraliza, em um único menu interativo, funções como:
 
-1. Go to your GitHub repository where the `Windows-Update-and-Options.bat` file is located.
-2. Click on the "Code" button, then select "Download ZIP" to acquire the repository as a ZIP file.
+- Atualização do sistema Windows e seus componentes.
+- Atualização do Windows Defender.
+- Atualização de programas via **winget**.
+- Limpeza completa de arquivos temporários, caches de navegadores (Edge, Chrome, Firefox, Brave) e logs do sistema.
 
-# Install App Installer from Microsoft Store
+Ideal para administradores, técnicos e usuários que desejam manter o sistema otimizado sem precisar executar manualmente diversos comandos.
 
-1. **Open the Microsoft Store:**
-   - Click on the "Start" button or press the "Windows" key on your keyboard.
-   - Type "Microsoft Store" and press "Enter" to open it.
+---
 
-2. **Search for "App Installer":**
-   - In the Microsoft Store, utilize the search bar at the top-right corner.
-   - Type "App Installer" and press "Enter" to search for it.
+## ⚙️ Funções Disponíveis
 
-3. **Locate and Install "App Installer":**
-   - Once the search is complete, find "App Installer" in the search results.
-   - Click on it to access the App Installer page.
+1. **Atualizar o Sistema Windows**  
+   Executa verificações e reparos de integridade do sistema, habilita e reinicia o serviço de atualização e força a busca por updates.
 
-4. **Install the App:**
-   - On the App Installer page, click the "Install" button to download and install the application.
-   - Wait for the installation process to finish.
+2. **Atualizar o Windows Defender**  
+   Faz o download das últimas definições de vírus e malware.
 
-5. **Confirm the Installation:**
-   - After the installation, a notification will confirm its completion.
+3. **Atualizar Programas com Winget**  
+   Atualiza todos os aplicativos instalados que possuam versões mais recentes disponíveis no repositório do `winget`.
 
-# Run the Windows-Update-and-Options.bat Script
+4. **Atualizar Tudo**  
+   Executa as três funções anteriores em sequência.
 
-1. **Extract the ZIP file:**
-   - Extract the contents of the downloaded ZIP file to a location on your computer.
+5. **Limpar o Cache e Arquivos Temporários**  
+   Remove arquivos temporários do Windows, esvazia a lixeira, exclui caches e dados desnecessários de navegadores suportados, e limpa logs de sistema.
 
-2. **Locate and Run the Windows-Update-and-Options.bat Script:**
-   - Open the folder where you extracted the ZIP file.
-   - You should find the `Windows-Update-and-Options.bat` script file.
+---
 
-3. **Run as Administrator:**
-   - Right-click on the `Windows-Update-and-Options.bat` script file and select "Run as administrator."
-   - If prompted, confirm that you want to run the script.
+## ▶️ Como Executar
 
-4. **Windows Defender Prompt:**
-   - During execution, a Windows Defender SmartScreen prompt may appear, cautioning about running the `Windows-Update-and-Options.bat` file.
-   - If so, click on "More info" to reveal additional options.
-   - Then, click on "Run anyway" to proceed with executing the script.
+1. Baixe ou crie o arquivo `manutencao_windows.bat` com o conteúdo do script.
+2. Salve-o em um local de fácil acesso.
+3. Clique com o **botão direito** sobre o arquivo e escolha **"Executar como administrador"**.
+4. No menu exibido no terminal, digite o número ou letra correspondente à função desejada e pressione **Enter**.
 
-5. **Wait for Updates:**
-   - The `Windows-Update-and-Options.bat` script will start executing to perform its tasks.
+---
 
-6. **Verification:**
-   - Ensure your system functions normally after the updates.
-   - Check installed programs and confirm that the App Installer is updated.
+## ⚠️ Avisos Importantes
 
-This guide is tailored for downloading the `Windows-Update-and-Options.bat` file from your GitHub repository, installing the App Installer from the Microsoft Store, and running the script with administrative privileges. Modify the instructions according to your repository details and application needs.
+- A execução como administrador é **obrigatória** para que todas as funções funcionem corretamente.  
+- Durante a limpeza, **dados temporários de navegadores serão removidos** — incluindo cache e arquivos locais.
+- Alguns processos (como limpeza ou atualização) podem demorar alguns minutos, dependendo do desempenho do computador.
+
+---
+
+## 📜 Créditos
+
+- Script de limpeza baseado na versão 1.2c (30/06/2023) de Baboo, adaptado e integrado ao menu de manutenção.
