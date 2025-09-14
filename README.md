@@ -33,7 +33,7 @@ Ideal para administradores, técnicos e usuários que desejam manter o sistema o
 
 ## ▶️ Como Executar
 
-1. Baixe ou crie o arquivo `manutencao_windows.bat` com o conteúdo do script.
+1. Baixe ou crie o arquivo com o conteúdo do script.
 2. Salve-o em um local de fácil acesso.
 3. Clique com o **botão direito** sobre o arquivo e escolha **"Executar como administrador"**.
 4. No menu exibido no terminal, digite o número ou letra correspondente à função desejada e pressione **Enter**.
