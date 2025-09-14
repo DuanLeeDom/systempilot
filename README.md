@@ -45,9 +45,3 @@ Ideal para administradores, técnicos e usuários que desejam manter o sistema o
 - A execução como administrador é **obrigatória** para que todas as funções funcionem corretamente.  
 - Durante a limpeza, **dados temporários de navegadores serão removidos** — incluindo cache e arquivos locais.
 - Alguns processos (como limpeza ou atualização) podem demorar alguns minutos, dependendo do desempenho do computador.
-
----
-
-## 📜 Créditos
-
-- Script de limpeza baseado na versão 1.2c (30/06/2023) de Baboo, adaptado e integrado ao menu de manutenção.
