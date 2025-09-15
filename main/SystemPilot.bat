@@ -17,10 +17,21 @@ if %errorlevel% neq 0 (
     echo [ERROR] Winget not found!
     echo [INFO] Please install Winget and try again.
     pause
-    exit
+
+    REM Executa o PowerShell para instalar o Winget via Microsoft Store
+    powershell -Command "Start-Process ms-windows-store://pdp/?productid=9NBLGGH4NNS1"
+
+    echo.
+    echo [ATENCAO] A Microsoft Store foi aberta para instalar o App Installer.
+    echo Por favor, conclua a instalacao e depois execute este script novamente.
+    echo.
+    pause
+    exit /b
 )
 
 for /f "tokens=*" %%V in ('winget --version') do set "WINGET_VERSION=%%V"
+echo [OK] Winget encontrado! Versao: %WINGET_VERSION%
+echo.
 
 REM Seleção de idioma
 REM -------------------
